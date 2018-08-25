@@ -3,10 +3,9 @@ public class TrafficLightDemo {
         TrafficLightSimulator t1 = new TrafficLightSimulator(TrafficLightColour.GREEN);
 
         for (int i = 0; i < 9; i++) {
-            System.out.println(t1.getCOlour());
+            System.out.println(t1.getColour());
             t1.waitForChange();
         }
-
         t1.cancel();
     }
 }
